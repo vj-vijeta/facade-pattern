@@ -1,0 +1,17 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm run build",
+    "build": "tsc",
+    "start": "node out/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  },
+  "description": ""
+}
